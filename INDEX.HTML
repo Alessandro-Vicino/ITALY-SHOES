@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="Css/Index.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+
+	<header class="header clearfix">
+		<a class="logo" href="INDEX.HTML">
+<img src="Immagini/LOGO1.png" alt="Italy Shoes " class="animate logo-dark">
+</a>
+		
+		
+
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="Pagine/STORIA.htm">Storia</a></li>
+			<li class="header__menu__item"><a href="Pagine/CHI SIAMO.HTML">Chi Siamo</a></li>
+			<li class="header__menu__item"><a href="Pagine/LOG IN.HTML">Log in</a></li>
+			<li class="header__menu__item"><a href="Pagine/SIGN IN.HTML">Sign in</a></li>
+			<li class="header__menu__item"><a href="Pagine/PRODOTTI.HTML">Prodotti</a></li>
+		</ul>
+	</header>
+
+	<section class="cover">
+		<div class="cover__filter"></div>
+		<div class="cover__caption">
+			<div class="cover__caption__copy">
+				<h1>ITALY SHOES</h1>
+				<h2>Qualit&#224 tutta italiana</h2>
+				<a href="Pagine/PRODOTTI.HTML" class="button"> Compra ora</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="cards clearfix">
+		<div class="card">
+			<img class="card__image"src="Immagini/Scarpeperuomo.png" alt="Nature">
+			<div class="card__copy">
+				<h3>Scarpe per Uomo</h3>
+
+			</div>
+		</div>
+		<div class="card">
+			<img class="card__image"src="Immagini/Scarpeperdonna.png" alt="Nature">
+			<div class="card__copy">
+				<h3>Scarpe per Donna</h3>
+
+			</div>
+		</div>
+		<div class="card">
+			<img class="card__image"src="Immagini/Scarpeperragazzi.png" alt="Nature">
+			<div class="card__copy">
+				<h3>Scarpe per Ragazzi</h3>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section class="banner clearfix">
+		<div class="banner__image"></div>
+		<div class="banner__copy">
+			<div class="banner__copy__text">
+				<h3>Italy Shoes Card</h3>
+				<p>Iscriviti al nostro sito per ottenere tutto quello che cerchi a un prezzo contenuto e alla spedizione ci pensiamo noi!</p>
+			</div>
+		</div>
+	</section>
+
+
+
+
+<footer class="footer">
+	<p>Copyright - 2020 ALESSANDROVICINO.net</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+
+</body>
+</html>

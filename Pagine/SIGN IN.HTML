@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="../Css/Storia.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<header class="header clearfix">
+		<a class="logo" href="../INDEX.HTML">
+<img src="../Immagini/LOGO2.png" alt="Italy Shoes " class="animate logo-dark">
+</a>
+
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="../INDEX.HTML">Home</a></li>
+			<li class="header__menu__item"><a href="../Pagine/CHI SIAMO.HTML">Chi Siamo</a></li>
+			<li class="header__menu__item"><a href="../Pagine/LOG IN.HTML">Log in</a></li>
+			<li class="header__menu__item"><a href="../Pagine/SIGN IN.HTML">Sign in </a></li>
+			<li class="header__menu__item"><a href="../Pagine/PRODOTTI.HTML">Prodotti</a></li>
+
+
+		</ul>
+	</header>
+
+	<section class="cover cover--single">
+		<div class="cover__filter"></div>
+		<div class="cover__caption">
+			<div class="cover__caption__copy">
+				<h1>SIGN IN </h1>
+
+			</div>
+		</div>
+	</section>
+	
+
+        <article class="panel">
+		    <div class="panel__copy">
+                        <FORM>
+                             <TABLE>
+                                   <center>
+                                  <p><TR><TD>Nome</TD><TD><INPUT type=text> </TD></TR></p>
+                                  <p><TR><TD>Cognome</TD><TD><INPUT type=text> </TD></TR></p>
+                                  <p><TR><TD>E-mail</TD><TD> <INPUT type=text> </TD> </TR></p>
+                                  <p><TR><TD>Password</TD><TD> <INPUT type=password> </TD></TR></p> 
+                                    </center>
+                             </TABLE>
+                             <p>Sesso <INPUT type=radio name=sesso> M <INPUT type=radio name=sesso> F </p>
+
+                               <p>regione <SELECT>
+                     <OPTION>Basilicata</OPTION>
+                     <OPTION>Calabria</OPTION>
+                     <OPTION>Abruzzo</OPTION>
+                     <OPTION>Campania</OPTION>
+                     <OPTION>Emilia-Romagna</OPTION>
+                     <OPTION>Friuli Venezia Giulia</OPTION>
+                     <OPTION>Lazio</OPTION>
+                     <OPTION>Liguria</OPTION>
+                     <OPTION>Lombardia</OPTION>
+                     <OPTION>Marche</OPTION>
+                     <OPTION>Molise</OPTION>
+                     <OPTION>Piemonte</OPTION>
+                     <OPTION>Puglia</OPTION>
+                     <OPTION>Sardegna</OPTION>
+                     <OPTION>Sicilia</OPTION>
+                     <OPTION>Toscana</OPTION>
+                     <OPTION>Trentino-Alto Adige</OPTION>
+                     <OPTION>Umbria</OPTION>
+                     <OPTION>Valle d'Aosta</OPTION>
+<                    <OPTION>Veneto</OPTION>
+                   </SELECT></p>
+                            </center>
+           accetto i termini e le condizioni <INPUT type=checkbox> <BR>
+                            <center>
+                             <button><a href="../INDEX.HTML" class="button"> Iscriviti</a></button>
+                             </center>
+                             
+                       </FORM>
+
+        </article>
+        
+
+	<section class="banner clearfix">
+		<div class="banner__image"></div>
+		<div class="banner__copy">
+			<div class="banner__copy__text">
+				<h3>Perch&#232 iscriversi?</h3>
+				<p>Iscrivendosi potrai ricevere gadget eslusivi.</p>
+                                <p>Inoltre, potrai usufruire di ulteriori sconti su tutta la collezione.</p>
+			</div>
+		</div>
+	</section>
+
+
+<footer class="footer">
+	<p>Copyright - 2020 ALESSANDROVICINO.net</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+
+</body>
+</html>

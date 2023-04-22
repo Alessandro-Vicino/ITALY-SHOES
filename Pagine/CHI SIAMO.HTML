@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="../Css/Chi Siamo.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<header class="header clearfix">
+		<a class="logo" href="../INDEX.HTML">
+<img src="../Immagini/LOGO3.png" alt="Italy Shoes " class="animate logo-dark">
+</a>
+
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="../INDEX.HTML">Home</a></li>
+			<li class="header__menu__item"><a href="../Pagine/STORIA.htm">Storia</a></li>
+			<li class="header__menu__item"><a href="../Pagine/LOG IN.HTML">Log in</a></li>
+			<li class="header__menu__item"><a href="../Pagine/SIGN IN.HTML">Sign in</a></li>
+			<li class="header__menu__item"><a href="../Pagine/PRODOTTI.HTML">Prodotti</a></li>
+
+		</ul>
+	</header>
+
+	<section class="cover cover--single">
+		<div class="cover__filter"></div>
+		<div class="cover__caption">
+			<div class="cover__caption__copy">
+				<h1> CHI SIAMO </h1>
+				<h2>Informazioni legali</h2>
+			</div>
+		</div>
+	</section>
+
+	<article class="panel">
+		<div class="panel__copy">
+			<p>Numero Servizio clienti Italia: <b>02 3030 0067</b></p>
+                        <p>Disponibile dal luned&#236 al venerd&#236 dalle 8 alle 20, sabato dalle 10 alle 18..</p>
+                        <p>Italy Shoes.it &#232 un'offerta di:
+                        <p><b>Italy shoes.co</b></p>
+                        <p>Via Lucana,2</p>
+                        <p>75100 Matera</p>
+                        <p>Italia.</p>
+                        <p>E-Mail: <b>infoazienda@zalando.it</b></p>
+                        <p>Presidente del consiglio di amministrazione:</p>
+                        <p>Alessandro Vicino</p>
+                        <p>Partita IVA: 37/132/45004</p>
+		</div>
+	</article>
+
+
+
+
+<footer class="footer">
+	<p>Copyright - 2020 ALESSANDROVICINO.net</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+
+</body>
+</html>

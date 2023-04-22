@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="../Css/Prodotti.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+
+	<header class="header clearfix">
+		<a class="logo" href="../INDEX.HTML">
+<img src="../Immagini/LOGO4.png" alt="Italy Shoes " class="animate logo-dark">
+</a>
+		
+		
+
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="../INDEX.HTML">Home</a></li>
+			<li class="header__menu__item"><a href="../Pagine/STORIA.htm">Storia</a></li>
+			<li class="header__menu__item"><a href="../Pagine/CHI SIAMO.HTML">Chi Siamo</a></li>
+			<li class="header__menu__item"><a href="../Pagine/LOG IN.HTML">Log in</a></li>
+			<li class="header__menu__item"><a href="../Pagine/SIGN IN.HTML">Sign in</a></li>
+
+		</ul>
+	</header>
+
+	<section class="cover">
+		<div class="cover__filter"></div>
+		<div class="cover__caption">
+			<div class="cover__caption__copy">
+				<h1>PRODOTTI </h1>
+				<h2>Tutto quello che vuoi a portata di un click</h2>
+				<a href="" class="button"> Compra ora</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="cards clearfix">
+		<div class="card">
+			<img class="card__image"src="../Immagini/SNEAKERS.png" alt="Nature">
+			<div class="card__copy">
+				<h3>Sneakers</h3>
+				<p>Ottime per ogni occasione. </p>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card__image"src="../Immagini/SCARPEELEGANTI.png" alt="Nature">
+			<div class="card__copy">
+				<h3>Scarpe eleganti</h3>
+				<p> Per i cultori della classe e l&#8217eleganza.</p>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card__image"src="../Immagini/SCARPEBASSE.png" alt="Nature">
+			<div class="card__copy">
+				<h3>Scarpe basse</h3>
+				<p>Un giusto compromesso tra comodit&#224 e stile. </p>
+			</div>
+		</div>
+	</section>
+
+	<section class="cards clearfix">
+		<div class="card">
+			<img class="card__image"src="../Immagini/MOCASSINI.png" alt="Nature">
+			<div class="card__copy">
+				<h3>Mocassini</h3>
+				<p>Realizzate per i veri gentleman.</p>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card__image"src="../Immagini/SCARPESPORTIVE.png" alt="Nature">
+			<div class="card__copy">
+				<h3>Scarpe sportive</h3>
+				<p> Ideali per gli amanti dello sport.</p>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card__image"src="../Immagini/STIVALI.png" alt="Nature">
+			<div class="card__copy">
+				<h3>Stivali & Anfibi</h3>
+				<p>Per uno stile deciso e ribelle.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="banner clearfix">
+		<div class="banner__copy">
+			<div class="banner__copy__text">
+				<h3>Promozioni</h3>
+
+				<p>20% di sconto per i clienti Italy Shoes Card.</p>
+			</div>
+		</div>
+		<div class="banner__image"></div>
+	</section>
+
+
+<footer class="footer">
+	<p>Copyright - 2020 ALESSANDROVICINO.net</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+
+</body>
+</html>
